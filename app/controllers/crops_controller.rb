@@ -1,2 +1,4 @@
-class FoodsController < ApplicationController
+class CropsController < ApplicationController
+  def index
+  end
 end

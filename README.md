@@ -6,7 +6,7 @@ Planting Guide (models are Season and Food)
 
 --> Users can:
     --> See planting guide on main page
-      --> Nav bar with seasons on main page
+      --> Access Nav bar with seasons on main page
     --> Sort by season
     --> See complete list of foods
       --> Link to list on main page (nav bar?)
