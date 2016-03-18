@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  root to: "seasons#index"
+  root "seasons#index"
+  resources :seasons
+  resources :crops
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

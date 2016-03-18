@@ -1,4 +1,3 @@
-class Season
-  def create
-  end
+class Season < ActiveRecord::Base
+  has_many :crops
 end
