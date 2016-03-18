@@ -1,2 +1,2 @@
-class FoodsController < ApplicationController::Base
+class FoodsController < ApplicationController
 end

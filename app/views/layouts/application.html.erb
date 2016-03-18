@@ -7,8 +7,11 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+  <nav>
+    <h1>Welcome to Your Planting Guide!</h1>
+    <h2><%= link_to "Seasons", seasons_path %> | <%= link_to "Crops", crops_path %>
+  </nav>
+</body>
+  <%= yield %>
 </body>
 </html>
