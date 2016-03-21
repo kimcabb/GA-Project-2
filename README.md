@@ -7,4 +7,5 @@ The idea for this app came from my desire to have in one place (and on a small s
 Please see the "planning" directory for wireframe, ERD and user story data.
 
 Created using Ubuntu 14.04
+
 Ruby version 2.2.0p0 revision 49005 [x86_64-linux]

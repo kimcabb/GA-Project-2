@@ -1,3 +1,3 @@
 class Crop < ActiveRecord::Base
-  belongs_to :seasons
+  belongs_to :season
 end

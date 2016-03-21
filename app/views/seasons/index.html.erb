@@ -1,7 +1,4 @@
-<body>
-
-  <h1>Seasons</h1>
-
-<%= yield %>
-
-</body>
+<h1>Seasons</h1>
+<% @seasons.each do |season| %>
+  <%=  season.name %>
+<% end %>
