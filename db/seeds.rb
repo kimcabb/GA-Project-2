@@ -6,5 +6,32 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
+Crop.destroy_all
+Season.destroy_all
+
+
 winter = Season.create!(name:"Winter")
-cabbage = winter.crops.create!(name:"cabbage")
+spring = Season.create!(name: "Spring")
+summer = Season.create!(name: "Summer")
+autumn = Season.create!(name: "Autumn")
+
+cabbage = winter.crops.create!(name:"Cabbage")
+celery = winter.crops.create!(name:"Celery")
+onion = winter.crops.create!(name:"Onion")
+
+cucumber = spring.crops.create!(name:"Cucumber")
+lettuce = spring.crops.create!(name:"Lettuce")
+carrots = spring.crops.create!(name:"Carrots")
+oregano = spring.crops.create!(name:"Oregano")
+
+kale = summer.crops.create!(name:"Kale")
+broccoli = summer.crops.create!(name:"Broccoli")
+chard= summer.crops.create!(name:"Chard")
+dill= summer.crops.create!(name:"Dill")
+basil= summer.crops.create!(name:"Basil")
+
+spinach = autumn.crops.create!(name:"Spinach")
+garlic = autumn.crops.create!(name:"Garlic")
+chives = autumn.crops.create!(name:"Chives")
+mustard_seed = autumn.crops.create!(name:"Mustard Seed")
+lavender = autumn.crops.create!(name:"Lavender")

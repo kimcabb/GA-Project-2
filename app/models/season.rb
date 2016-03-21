@@ -1,3 +1,3 @@
 class Season < ActiveRecord::Base
-  has_many :crop
+  has_many :crops
 end
