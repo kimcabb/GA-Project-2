@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Your Planting Guide</title>
+  <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -9,7 +10,7 @@
 <body>
   <nav>
     <h1>Welcome to Your Planting Guide!</h1>
-    <h2><%= link_to "Home", root_path %> | <%= link_to "Seasons", seasons_path %> | <%= link_to "Crops", crops_path %>
+    <h2><%= link_to "Home", root_path %> | <%= link_to "Seasons", seasons_path %> | <%= link_to "Crops", crops_path %></h2>
   </nav>
   <%= yield %>
 </body>

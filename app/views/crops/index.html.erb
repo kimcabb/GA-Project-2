@@ -1,6 +1,10 @@
-<h1>Crops</h1>
+<h2>CROPS <%= link_to "Add", new_crop_path %></h2>
+
+<!-- <h3><% link_to "Add Crop", new_crop_path %></h3> -->
+
 <% @crops.each do |crop| %>
   <ul>
     <%= crop.name %>
   </ul>
+
 <% end %>

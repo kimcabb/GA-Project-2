@@ -1,0 +1,10 @@
+<h2>Add a New Crop</h2>
+
+<% form_for @crop do |f| %>
+  <% f.label :name %>
+  <% f.text_field :name %>
+
+<%= f.submit %>
+
+<%= yield %>
+<% end %>
