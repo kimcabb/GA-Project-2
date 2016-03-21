@@ -1,7 +1,4 @@
-<body>
-
-  <h1>Crops</h1>
-
-<%= yield %>
-
-</body>
+<h1>Crops</h1>
+<% @crops.each do |crop| %>
+  <%=  crop.name %>
+<% end %>
