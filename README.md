@@ -1,6 +1,4 @@
-GA Project 2
-
-Seasonal Planting Guide
+# SowGood: A Seasonal Planting Guide
 
 My app will allow users to create/read/update/delete basic crop data, based on seasons of the year.  This app is based on a two-model system, Season and Crop.  Seasons have crops, and crops belong to seasons.
 
