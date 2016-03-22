@@ -9,7 +9,7 @@ User Stories
           --> Choose individual season to see crops associated
         --> Navigate to Crops page
           --> See complete list of crops
-          --> Choose individual crop to see name, associated season, and growing information
+          --> Choose individual crop to see common name, scientific name, associated season
     --> Add new crops
     --> Edit existing crop entries
     (--> Extra: add recipes based on crop)
