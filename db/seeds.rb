@@ -26,7 +26,7 @@ oregano = spring.crops.create!(name:"Oregano")
 
 kale = summer.crops.create!(name:"Kale")
 broccoli = summer.crops.create!(name:"Broccoli")
-chard= summer.crops.create!(name:"Chard")
+chard= summer.crops.create!(name:"Swiss Chard")
 dill= summer.crops.create!(name:"Dill")
 basil= summer.crops.create!(name:"Basil")
 
