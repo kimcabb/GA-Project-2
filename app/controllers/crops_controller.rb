@@ -1,7 +1,7 @@
 class CropsController < ApplicationController
 
   def index
-    @crops = Season.all
+    @crops = Crop.all
   end
 
   def new
