@@ -1,6 +1,6 @@
-<h2>SEASONS</h2>
+<h2>PLANTING SEASONS</h2>
 <% @seasons.each do |season| %>
   <ul>
-    <%= season.name %>
+    <%= link_to "#{season.name}", season %>
   </ul>
 <% end %>

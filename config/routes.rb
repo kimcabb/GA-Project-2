@@ -2,8 +2,10 @@ Rails.application.routes.draw do
 
   root "welcome#index"
   get "/welcome" => 'welcome#index'
+
   resources :seasons
   resources :crops
+
 
   # Example resource route with options:
   #   resources :products do

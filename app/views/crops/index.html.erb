@@ -1,8 +1,8 @@
-<h2>SowGood CROPS <%= link_to "Add", new_crop_path %></h2>
+<h2>SowGood CROPS <%= link_to "Add", new_season_crop_path %></h2>
 
 <% @crops.each do |crop| %>
   <ul>
-    <%= crop.name %>
+    <%= season.crop.name %>
   </ul>
 
 <% end %>
