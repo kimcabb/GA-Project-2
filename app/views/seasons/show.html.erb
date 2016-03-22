@@ -1,5 +1,4 @@
-<h2><%= @season.name %></h2>
-<h3>Crops <%= link_to "Add", new_crop_path(@crop) %></h3>
+<h2><%= @season.name %> Crops</h2>
 
   <% @season.crops.each do |crop| %>
     <ul>

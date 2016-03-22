@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>SowGood</title>
+  <title>SowGood Planting Guide</title>
   <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
@@ -10,7 +10,7 @@
 <body>
     <h1>Welcome to Your Planting Guide!</h1>
     <nav>
-      <h2><%= link_to "Home", root_path %> | <%= link_to "Seasons", seasons_path %> | <%= link_to "Crops", crops_path %></h2>
+      <h2><%= link_to "Home", root_path %> | <%= link_to "Seasons", seasons_path %> | <%= link_to "Crops", crops_path %> | <%= link_to "Add Crop", new_crop_path %></h2>
     </nav>
   <%= yield %>
 </body>
