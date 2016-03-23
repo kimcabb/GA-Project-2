@@ -10,7 +10,7 @@ class CropsController < ApplicationController
 
   def create
     @crop = Crop.create!(crop_params)
-    redirect_to crops_path
+    redirect_to crop_url(@crop)
   end
 
   def show
