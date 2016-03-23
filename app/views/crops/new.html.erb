@@ -1,10 +1,12 @@
 <h2>Sow some good! Please enter crop name and season :)</h2>
 
 <%= form_for @crop do |f| %>
-  <%= f.label "Common Name" %>
-  <%= f.text_field :name %>
+    <%= f.label "Common Name" %>
+    <%= f.text_field :name %>
 
 <!-- create radio button with seasons to select -->
-  <%= f.collection_radio_buttons(:season_id, Season.all, :id, :name) %>
+  <ul>
+    <%= f.collection_radio_buttons(:season_id, Season.all, :id, :name) %>
+  </ul>
   <%= f.submit %>
 <% end %>
