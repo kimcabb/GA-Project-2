@@ -9,7 +9,6 @@
 Crop.destroy_all
 Season.destroy_all
 
-
 winter = Season.create!(name:"Winter")
 spring = Season.create!(name: "Spring")
 summer = Season.create!(name: "Summer")

@@ -9,8 +9,8 @@ class CropsController < ApplicationController
   end
 
   def create
-    @crop = Crop.create
-    redirect_to crops_path(@crop)
+    @crop = Crop.create!(crop_params)
+    redirect_to crops_path
   end
 
   def show
@@ -35,7 +35,7 @@ class CropsController < ApplicationController
 
   private
   def crop_params
-    params.require(:crop).permit(:name, :sci_name, :season_id)
+    params.require(:crop).permit(:name, :season_id)
   end
 
 end

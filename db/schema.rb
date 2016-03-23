@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160322193926) do
+ActiveRecord::Schema.define(version: 20160323133142) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 20160322193926) do
     t.integer "season_id"
     t.string  "sci_name"
     t.string  "img_url"
+    t.string  "season"
   end
 
   create_table "seasons", force: :cascade do |t|

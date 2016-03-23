@@ -4,15 +4,7 @@
   <%= f.label "Common Name" %>
   <%= f.text_field :name %>
 
-  <%= f.label "Scientific Name" %>
-  <%= f.text_field :sci_name %>
-
-  <%= f.label "Season ID" %>
-  <%= f.text_field :season_id %>
-
-    <!-- remove season_id -->
-
-<%= f.submit %>
-
-<%= yield %>
+<!-- create radio button with seasons to select -->
+  <%= f.collection_radio_buttons(:season_id, Season.all, :id, :name) %>
+  <%= f.submit %>
 <% end %>
