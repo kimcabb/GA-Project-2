@@ -23,7 +23,7 @@ class CropsController < ApplicationController
 
   def update
     @crop.update(crop_params)
-    redirect_to crops_url(@crop)
+    redirect_to crop_url(@crop)
   end
 
   def destroy

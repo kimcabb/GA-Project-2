@@ -14,7 +14,7 @@ spring = Season.create!(name: "Spring")
 summer = Season.create!(name: "Summer")
 autumn = Season.create!(name: "Autumn")
 
-cabbage = winter.crops.create!(name:"Cabbage")
+cabbage = winter.crops.create!(name:"Cabbage", img_url:"http://i.imgur.com/EPxpGJ8.jpg?1")
 celery = winter.crops.create!(name:"Celery")
 onion = winter.crops.create!(name:"Onion")
 
