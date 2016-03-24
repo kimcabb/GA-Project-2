@@ -22,6 +22,7 @@ class CropsController < ApplicationController
   end
 
   def update
+    @crop = Crop.find(params[:id])
     @crop.update(crop_params)
     redirect_to crop_url(@crop)
   end

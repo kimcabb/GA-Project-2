@@ -4,7 +4,7 @@
   <%= f.label "Common Name" %>
   <%= f.text_field :name %>
 
-<!-- create radio button with seasons to select -->
+<!-- creates radio button with seasons to select -->
   <%= f.collection_radio_buttons(:season_id, Season.all, :id, :name) %>
   <%= f.submit %>
 <% end %>

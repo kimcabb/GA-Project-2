@@ -7,7 +7,7 @@
     <%= f.label "Image URL" %>
     <%= f.text_field :img_url %>
 
-<!-- create radio button with seasons to select -->
+<!-- creates radio button with seasons to select -->
   <ul>
     <%= f.collection_radio_buttons(:season_id, Season.all, :id, :name) %>
   </ul>
