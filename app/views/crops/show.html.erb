@@ -1,5 +1,5 @@
 <!-- display crop name -->
-<h2>My name is <%= @crop.name %>. <%= link_to "Edit", edit_crop_path(@crop) %></h2>
+<h2>My name is <%= @crop.name %>. <%= link_to "Edit", edit_crop_path(@crop) %> <%= link_to "Delete", crop_path(@crop), method: :delete %></h2>
 
 <!-- display season to plant -->
 <h3>I prefer to be planted in <%= @crop.season.name %>!</h3>
