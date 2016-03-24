@@ -2,7 +2,7 @@
 <h2>My name is <%= @crop.name %>.</h2>
 <!-- display season to plant -->
 <h3>I prefer to be planted in <%= @crop.season.name %>!</h3>
-
+<%= image_tag @crop[:img_url] %>
 
 
 <!-- display scientific name -->
