@@ -30,7 +30,7 @@ class CropsController < ApplicationController
   def destroy
     @crop = Crop.find(params[:id])
     @crop.destroy
-    redirect_to crops_path
+    redirect_to crops_url
   end
 
   private
