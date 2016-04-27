@@ -15,12 +15,31 @@
  */
 
  body {
-  background-color:#AACD6E;
-  color:#3C3530;
+  background-color:#3C3530;
+  /*color:#FFFFFF;*/
+  /*background-color: #011627;
+  color: #EFFFE9;*/
+  /*background-color: #004e66;*/
+  color: #e1eef6;
+  /*color: #fcbe32;*/
+  /*color: #ff5f2e;*/
   text-align: center;
   font-family: 'Shadows Into Light', cursive;
  }
 
- .form {
+ h1 {
+   /*font-family: 'Lobster', cursive;*/
+   /*font-family: 'Lobster Two', cursive;*/
+   /*font-family: 'Lovers Quarrel', cursive;*/
+   font-family: 'Fredericka the Great', cursive;
+   /*font-family: 'Ribeye Marrow', cursive;*/
+   font-size: 75px;
+ }
+
+a:link, a:visited {
+  color: #EC7357;
+}
+
+.form {
    align-items: center;
  }

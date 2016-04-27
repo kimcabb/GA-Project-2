@@ -24,6 +24,10 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 # Use 12factor gem for heroku deployment
 gem "rails_12factor", group: :production
+# Add react components to rails API
+gem 'react-rails', github: 'reactjs/react-rails', branch: 'master'
+# Use showdown markdown parser
+gem 'showdown-rails'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

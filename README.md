@@ -8,9 +8,9 @@ Please see the "planning" directory for wireframe, ERD and user story data.
 
 Added functionality (work in progress):
   + Farmer's Market model
-  + OAuth using Twitter and Facebook Sign-in
+  + OAuth (Twitter and Facebook)
   + Online Shopping Cart
-  + Improved Styling
+  + Updated Styling
 
 
 Created using Ubuntu 14.04
