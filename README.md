@@ -9,7 +9,7 @@ Please see the "planning" directory for wireframe, ERD and user story data.
 Added functionality (work in progress):
   + Farmer's Market model
   + OAuth (Twitter and Facebook)
-  + Online Shopping Cart
+  + Online Shopping Cart using React.js
   + Updated Styling
 
 
