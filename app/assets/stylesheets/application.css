@@ -27,6 +27,24 @@
   font-family: 'Shadows Into Light', cursive;
  }
 
+ .farms {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin: 10px;
+    border: 3px solid #ff5f2e;
+    padding: 10px;
+ }
+
+ #farm1, #farm2, #farm3 {
+   display: inline-block;
+   width: auto;
+   height: auto;
+   margin: 10px;
+   border: 3px solid #fcbe32;
+   padding: 10px;
+ }
+
  h1 {
    /*font-family: 'Lobster', cursive;*/
    /*font-family: 'Lobster Two', cursive;*/
