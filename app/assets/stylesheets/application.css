@@ -14,7 +14,7 @@
  *= require_self
  */
 
- body {
+body {
   background-color:#3C3530;
   /*color:#FFFFFF;*/
   /*background-color: #011627;
@@ -24,34 +24,32 @@
   /*color: #fcbe32;*/
   /*color: #ff5f2e;*/
   text-align: center;
-  /*font-family: 'Shadows Into Light', cursive;*/
   font-family: 'Handlee', cursive;
  }
 
-.list{
+.list {
   margin: auto;
   width: 500px;
   height: 200px;
-
 }
 
 ul {
-    position: relative;
-    padding: 5px;
-    align-content: center;
-    display: inline-table;
+  position: relative;
+  padding: 5px;
+  align-content: center;
+  display: inline-table;
   }
 
- .farms {
-    display: inline-block;
-    width: auto;
-    height: auto;
-    margin: 10px;
-    border: 3px solid #ff5f2e;
-    padding: 10px;
+.farms {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  margin: 10px;
+  border: 3px solid #ff5f2e;
+  padding: 10px;
  }
 
- #farm1, #farm2, #farm3 {
+#farm1, #farm2, #farm3 {
    display: inline-block;
    width: auto;
    height: auto;
@@ -60,46 +58,42 @@ ul {
    padding: 10px;
  }
 
- h1 {
-   /*font-family: 'Lobster', cursive;*/
-   /*font-family: 'Lobster Two', cursive;*/
-   /*font-family: 'Lovers Quarrel', cursive;*/
-   font-family: 'Fredericka the Great', cursive;
-   /*font-family: 'Ribeye Marrow', cursive;*/
-   font-size: 75px;
+h1 {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 75px;
  }
 
-  a:link, a:visited {
+a:link, a:visited {
   color: #fcbe32;
 }
 
 form {
-   align-items: center;
+  align-items: center;
  }
 
 [name=commit] {
-    font-size: 12px;
-    font-weight: bold;
-    display: center;
-    width: 10%;
-    margin-top: 20px;
-    padding: 10px 10px;
-    color: white;
-    border: 0;
-    border-radius: 3px;
-    outline: none;
-    background: #2ecc71;
-    box-shadow: 0 5px 0 #27ae60;
+  font-size: 12px;
+  font-weight: bold;
+  display: center;
+  width: 10%;
+  margin-top: 20px;
+  padding: 10px 10px;
+  color: white;
+  border: 0;
+  border-radius: 3px;
+  outline: none;
+  background: #2ecc71;
+  box-shadow: 0 5px 0 #27ae60;
 }
 
 [name=commit]:hover {
-    background: #27ae60;
-    box-shadow: 0 5px 1px #145b32;
+  background: #27ae60;
+  box-shadow: 0 5px 1px #145b32;
 }
 
 [name=commit]:active {
-    border-top: 5px solid white;
-    box-shadow: none;
+  border-top: 5px solid white;
+  box-shadow: none;
 }
 
 #crop-img {
