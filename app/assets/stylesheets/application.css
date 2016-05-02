@@ -24,7 +24,8 @@
   /*color: #fcbe32;*/
   /*color: #ff5f2e;*/
   text-align: center;
-  font-family: 'Shadows Into Light', cursive;
+  /*font-family: 'Shadows Into Light', cursive;*/
+  font-family: 'Handlee', cursive;
  }
 
  .farms {
@@ -55,7 +56,7 @@
  }
 
 a:link, a:visited {
-  color: #EC7357;
+  color: #fcbe32;
 }
 
 .form {
