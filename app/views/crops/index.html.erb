@@ -1,7 +1,8 @@
 <h2>SowGood CROPS</h2>
 
-<% @crops.each do |crop| %>
-  <ul>
-    <%= link_to "#{crop.name}", crop %>
-  </ul>
-<% end %>
+<!--display crop index-->
+<div class="list">
+  <% @crops.each do |crop| %>
+  <ul><%= link_to "#{crop.name}", crop %></ul>
+  <% end %>
+</div>

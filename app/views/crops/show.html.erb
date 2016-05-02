@@ -3,7 +3,8 @@
 
 <!-- display season to plant -->
 <h3>I prefer to be planted in <%= @crop.season.name %>!</h3>
-<%= image_tag @crop[:img_url] %>
 
-<!-- display scientific name -->
-  <!-- update seed data -->
+<!--display crop image-->
+<div id="crop-img"> 
+  <%= image_tag @crop[:img_url] %>
+</div>
