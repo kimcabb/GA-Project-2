@@ -28,8 +28,18 @@
   font-family: 'Handlee', cursive;
  }
 
-  ul {
-    text-align: center;
+.list{
+  margin: auto;
+  width: 500px;
+  height: 200px;
+
+}
+
+ul {
+    position: relative;
+    padding: 5px;
+    align-content: center;
+    display: inline-table;
   }
 
  .farms {
@@ -59,7 +69,7 @@
    font-size: 75px;
  }
 
-a:link, a:visited {
+  a:link, a:visited {
   color: #fcbe32;
 }
 
@@ -90,4 +100,10 @@ form {
 [name=commit]:active {
     border-top: 5px solid white;
     box-shadow: none;
+}
+
+#crop-img {
+  border-radius: 10px;
+  /*border-style: solid;*/
+  box-shadow: 10px;
 }
